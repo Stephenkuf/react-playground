@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.counter-button{
+  width: 200px;
+   height: 50px;
+   font-size: 30px;
+   
+}
+.counter-box{
+ border: 1px solid cyan;
+ background-color: cyan;
+ color: black;
+ padding: 10px;
+ font-size: 40px;
+}
+.theme-checkbox{
+  width: 20px;
+  height: 20px;
+}
+
+.back-button{
+    width: 300px;
+    height: 50px;
+    font-size: 22px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100px;
+  /* Should be removed. Only for demonstration */
+}
+
+.row{
+  padding-bottom: 30px;
+  width: 37vw !important;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+}
+
+.theme-changer{
+  margin-top: 40px;
+}
