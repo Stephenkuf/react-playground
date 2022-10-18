@@ -11,7 +11,6 @@ function ThemeChange(props) {
     <label className="theme-change-label" for="theme"> {themeType}</label>
       <br/>
   </div>
-
 }
 
 export default ThemeChange
