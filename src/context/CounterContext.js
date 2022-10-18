@@ -41,7 +41,6 @@ export const CounterContextProvider = ({ children }) => {
       localStorage.setItem('counterAppTheme', "light");
     }
   }
-
   function globalIncrement() {
     setGlobalCount((globalCount) => globalCount + 1)
   }
